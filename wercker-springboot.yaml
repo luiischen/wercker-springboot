@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: wercker-springboot
-        image: index.docker.io/georgexiang/wercker-springboot:latest
+        image: index.docker.io/luchendocker/wercker-springboot:latest
         ports:
         - containerPort: 8080  
 ---
